@@ -1,0 +1,22 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  color: black;
+  font-family: 'Nunito', sans-serif;
+  font-size: 18px;
+  border: none;
+}
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+ 
+:target {
+  scroll-margin-top: 1.2em;
+}

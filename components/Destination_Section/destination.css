@@ -1,0 +1,167 @@
+.img-txt-content-box {
+    margin: 8.41rem 3rem 0px 3rem;
+}
+
+.destination-section .img-txt-content-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3.95rem;
+}
+
+.destination-section .img-txt-content-box img {
+    width: 46.41vw;
+    position: relative;
+    bottom: 40px;
+}
+
+.destination-section .text-content {
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+    margin-right: 2rem;
+}
+
+.destination-section .text-content h2 {
+    font-family: 'Crimson Text', serif;
+    font-size: 3.25rem;
+    font-weight: 400;
+    line-height: 113.7%;
+    letter-spacing: -0.01em;
+    padding-bottom: 1.3rem;
+    position: relative;
+    right: 10px;
+}
+
+.destination-section .text-content p {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #3D3D3D;
+}
+
+.destination-section .company-info {
+    display: flex;
+    gap: 4.94rem;
+}
+
+.destination-section .company-info p span {
+    font-size: 2.75rem;
+    font-weight: 700;
+    color: #FBB667;
+    position: relative;
+    top: 8px;
+}
+
+.destination-section .company-info p {
+    color: black;
+}
+
+.destination-section .explore-btn {
+    width: max-content;
+    padding: 0.69rem 1.56rem;
+    background: #0F214F;
+    border-radius: 100px;
+    color: white;
+    font-size: 1.125rem;
+    font-weight: 600;
+    cursor: pointer;
+    position: relative;
+    right: 13px;
+    margin-top: 19px;
+    transition: .4s;
+}
+
+.destination-section .explore-btn:hover {
+    background: #173379
+}
+
+.destination-section .cards-box {
+    display: flex;
+    justify-content: center;
+    gap: 1.125rem;
+    margin-top: 3.875rem;
+    overflow-x: auto;
+    padding-bottom: 15px;
+}
+
+.stronger-shadow .card {
+    box-shadow: 0px 3px 6px rgba(66, 66, 66, 0.25);
+    height: 100%;
+}
+
+@media (max-width:1134px) {
+    .destination-section .img-txt-content-box {
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 8.44rem;
+    }
+
+    .destination-section .img-txt-content-box img {
+        width: 60vw;
+        bottom: 0px;
+    }
+
+    .destination-section .text-content {
+        margin-right: 0px;
+    }
+}
+
+@media (max-width:768px) {
+    .destination-section .img-txt-content-box img {
+        width: 65vw;
+    }
+    
+    .destination-section .text-content {
+        align-items: center;
+    }
+    
+    .destination-section .text-content h2 {
+        font-size: 1.875rem;
+        right: 0px;
+    }
+
+    .destination-section .text-content p {
+        font-size:0.9375rem;
+    }
+
+    .destination-section .company-info {
+        gap: 3rem;
+    }
+
+    .destination-section .company-info p {
+        font-size: 0.875rem;
+    }
+
+    .destination-section .company-info p span {
+        font-size: 2.4rem;
+    }
+
+    .destination-section .explore-btn {
+        padding: 0.69rem 1.06rem;
+        font-size: 0.75rem;
+    }
+
+    .destination-section .cards-box {
+        justify-content: start;
+        padding: 0 32px 15px 32px;
+    }
+}
+
+@media (max-width:475px) {
+    .destination-section .img-txt-content-box {
+        margin: 8.41rem 2rem 0px 2rem;
+    }
+    
+    .destination-section .img-txt-content-box img {
+        width: 84.54vw;
+    }
+
+    .destination-section .text-content{
+        align-items: start;
+    }
+
+    .destination-section .company-info {
+        display: none;
+    }
+}
+

@@ -1,0 +1,123 @@
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5625rem 3.25rem;
+}
+
+.nav-links a{
+    font-weight: 700;
+    color: #B6B6B6;
+    padding-right: 3rem;
+    transition: .2s;
+}
+
+.nav-links a:hover {
+    color: #FBB667;
+}
+
+.nav-links a:last-of-type {
+    padding: 0px;
+}
+
+.book-btn {
+    padding: 0.625rem 2.125rem;
+    background-color: #FBB667;
+    box-shadow: 0px 5px 8px rgba(251, 182, 103, 0.58);
+    border-radius: 100px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    color: white;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.book-btn:hover {
+    background-color: #fda138;
+}
+
+.hamburguer-menu {
+    display: none;
+    cursor: pointer;
+}
+
+nav.nav-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3.125rem;
+    position: absolute;
+    top: 42px;
+    height: 42px; 
+    width: 100vw;
+    background: white;
+    visibility: hidden; 
+    transition: .7s;
+    overflow: hidden;
+    z-index: 1000;
+}
+
+@media (max-width: 905px) {
+    .header-nav {
+        padding: 0.5625rem 1rem;
+    }
+}
+
+@media (max-width:769px) {
+    .nav-links {
+        display: none;
+    }
+
+    .header-nav {
+        padding: 0.5625rem 3rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .header-nav .book-btn {
+        display: none;
+    }
+
+    .hamburguer-menu {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        margin-top: 9px;
+        background-color: white;
+    }
+    
+    .hamburguer-menu span {
+        width: 27px;
+        border-top: 1.62px solid #141414;
+        transition: .3s;
+        position: relative;
+    }
+
+    .active.hamburguer-menu span:first-child {
+        border-top-color: transparent;
+        transition: 0s;
+    }
+
+    .active.hamburguer-menu span:nth-child(2) {
+        transform: rotate(135deg);
+    }
+
+    .active.hamburguer-menu span:nth-child(3) {
+        transform: rotate(-135deg);
+        top: -9px;
+    }
+
+    .nav-links a {
+        padding: 0px;
+    }
+
+    nav.nav-links.active {
+        height: calc(100vh - 42px);
+        visibility: visible;
+    }
+
+    body.active {
+        position: fixed;
+    }
+}
