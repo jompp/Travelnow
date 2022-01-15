@@ -13,10 +13,6 @@ footer .logo-text-box {
     width: 255px;
 }
 
-footer .logo-text-box a {
-    cursor: pointer;
-}
-
 footer .logo-text-box p {
     font-size: 0.875rem;
     font-weight: 400;
@@ -79,10 +75,6 @@ footer .logo-text-box p {
         padding-left: 0;
     }
 
-    footer .logo-text-box {
-        width: max-content;
-    }
-
     .logo-text-box p {
         display: none;
     }
@@ -98,7 +90,11 @@ footer .logo-text-box p {
         padding: 1.8rem 0px 2.8rem 0;
     }
     
-    footer .logo-text-box a {
+    footer .logo-text-box {
+        width: max-content;
+    }
+    
+    footer .logo-text-box img {
         width: 153px;
     }
     

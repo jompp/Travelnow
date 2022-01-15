@@ -14,7 +14,7 @@ export default function Header() {
     }
     
     return (
-        <header id='header'>
+        <header>
             <nav className='header-nav'>
                 <img src="../images/Travelnow.svg" alt="Logo Travelnow"/>
                 <div className='nav-links'>

@@ -86,7 +86,6 @@
 
 .stronger-shadow .card {
     box-shadow: 0px 3px 6px rgba(66, 66, 66, 0.25);
-    height: 100%;
 }
 
 @media (max-width:1134px) {

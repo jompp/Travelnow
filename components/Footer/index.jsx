@@ -9,7 +9,7 @@ export default function Footer() {
         <footer>
             <div className='logo-links-box'>
                 <div className='logo-text-box'>
-                    <a href='#header'><img src="../images/Travelnow.svg" alt="Logo" /></a>
+                    <img src="../images/Travelnow.svg" alt="Logo" />
                     <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500.</p>
                 </div>
                 <div className='footer-links'>
