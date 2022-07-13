@@ -84,7 +84,7 @@
     padding-bottom: 15px;
 }
 
-.stronger-shadow .card {
+.card:nth-child(2) {
     box-shadow: 0px 3px 6px rgba(66, 66, 66, 0.25);
 }
 

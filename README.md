@@ -14,4 +14,4 @@ Projeto desenvolvido durante o Núcleo de estudos Web da [InfoJr UFBA](https://b
 
 ## 📁 Acesso ao Projeto
 
-Foi feito o deploy do site pela plataforma [Netlify](https://www.netlify.com/) e você pode acessá-lo através desse [link](https://loving-bhaskara-ab470d.netlify.app/).
+Foi feito o deploy do site pela plataforma [Netlify](https://www.netlify.com/) e você pode acessá-lo através desse [link](https://vigorous-brown-c04b23.netlify.app/).

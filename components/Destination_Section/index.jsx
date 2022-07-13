@@ -3,6 +3,7 @@ import './destination.css'
 import Cards from '../Cards/index'
 import travelImg from '../../images/travel.svg'
 import mountainImg from '../../images/Mountains.jpg'
+import desertImg from '../../images/Desert.jpg'
 import campingImg from '../../images/Camping.jpg'
 
 export default function Destination_Section() {
@@ -23,7 +24,7 @@ export default function Destination_Section() {
             </div>
             <div className='cards-box'>
                 <Cards img={mountainImg} alt='Mountains' title='Travel to Mountains' />
-                <div className='stronger-shadow'><Cards img='../images/Desert.jpg' alt='Desert' title='Travel to Desert' /></div>
+                <Cards className='stronger-shadow' img={desertImg} alt='Desert' title='Travel to Desert' />
                 <Cards img={campingImg} alt='Mountain camp' title='Camping in Mountains' />
             </div>
         </section>
