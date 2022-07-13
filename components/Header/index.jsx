@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import './header.css'
+import travelnowImg from '../../images/Travelnow.svg'
 
 export default function Header() {
     const [active, setMode] = useState(false)
@@ -16,7 +17,7 @@ export default function Header() {
     return (
         <header>
             <nav className='header-nav'>
-                <img src="../images/Travelnow.svg" alt="Logo Travelnow"/>
+                <img src={travelnowImg} alt="Logo Travelnow"/>
                 <div className='nav-links'>
                     <a href="#discover-section">Discover</a>
                     <a href="#destination-section">Destination</a>

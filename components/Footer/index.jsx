@@ -1,15 +1,13 @@
 import React from 'react'
 import './footer.css'
+import travelnowImg from '../../images/Travelnow.svg'
 
 export default function Footer() {
-   /*  let year = new Date().getFullYear()
-    document.getElementById('dinamic-year').innerHTML = year */
-
     return (
         <footer>
             <div className='logo-links-box'>
                 <div className='logo-text-box'>
-                    <img src="../images/Travelnow.svg" alt="Logo" />
+                    <img src={travelnowImg} alt="Logo" />
                     <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500.</p>
                 </div>
                 <div className='footer-links'>

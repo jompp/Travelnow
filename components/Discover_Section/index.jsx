@@ -1,5 +1,6 @@
 import React from 'react'
 import './discover.css'
+import carTripImg from '../../images/discover.svg'
 
 export default function Discover_Section() {
     return (
@@ -12,7 +13,7 @@ export default function Discover_Section() {
                     <button className='search-btn'>Search</button>                    
                 </div>
             </div>
-            <img src="../images/discover.svg" alt="Car trip" />
+            <img src={carTripImg} alt="Car trip" />
         </section>
     )
 }

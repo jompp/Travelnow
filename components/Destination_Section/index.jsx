@@ -1,12 +1,15 @@
 import React from 'react'
 import './destination.css'
 import Cards from '../Cards/index'
+import travelImg from '../../images/travel.svg'
+import mountainImg from '../../images/Mountains.jpg'
+import campingImg from '../../images/Camping.jpg'
 
 export default function Destination_Section() {
     return (
         <section id='destination-section' className='destination-section'>
             <div className='img-txt-content-box'>
-                <img src="../images/travel.svg" alt="Two people hiking" />
+                <img src={travelImg} alt="Two people hiking" />
                 <div className='text-content'>
                     <h2>Travel to any corner of the World</h2>
                     <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.</p>
@@ -19,9 +22,9 @@ export default function Destination_Section() {
                 </div>
             </div>
             <div className='cards-box'>
-                <Cards img='../images/Mountains.jpg' alt='Mountains' title='Travel to Mountains' />
+                <Cards img={mountainImg} alt='Mountains' title='Travel to Mountains' />
                 <div className='stronger-shadow'><Cards img='../images/Desert.jpg' alt='Desert' title='Travel to Desert' /></div>
-                <Cards img='../images/Camping.jpg' alt='Mountain camp' title='Camping in Mountains' />
+                <Cards img={campingImg} alt='Mountain camp' title='Camping in Mountains' />
             </div>
         </section>
     )
