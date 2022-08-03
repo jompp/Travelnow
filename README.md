@@ -3,7 +3,7 @@
 > Status do Projeto: Concluido :heavy_check_mark:
 ## Descrição do Projeto
 
-Projeto desenvolvido durante o Núcleo de estudos Web da [InfoJr UFBA](https://br.linkedin.com/company/infojrufba). Consiste num site estático de uma agência de viagens fictícia chamada Travelnow.
+Projeto desenvolvido durante o Núcleo de estudos Web da [InfoJr UFBA](https://br.linkedin.com/company/infojrufba) com o objetivo de introdução ao React. Consiste num site estático de uma agência de viagens fictícia chamada Travelnow. 
 
 ![Preview do layout](images/preview_layout.png)
 
